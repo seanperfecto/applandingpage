@@ -2,6 +2,10 @@
   "name": "startbootstrap-new-age",
   "title": "New Age",
   "version": "3.3.7",
+  "engines": {
+    "node": "6.10.1",
+    "npm": "4.6.1",
+  },
   "homepage": "http://startbootstrap.com/template-overviews/new-age",
   "author": "Start Bootstrap",
   "license": {
