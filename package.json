@@ -3,8 +3,8 @@
   "title": "New Age",
   "version": "3.3.7",
   "engines": {
-    "node": "6.xx.x",
-    "npm": "3.10.10"
+    "node": "6.10.1",
+    "npm": "4.6.1"
   },
   "homepage": "http://startbootstrap.com/template-overviews/new-age",
   "author": "Start Bootstrap",
@@ -30,5 +30,10 @@
   },
   "dependencies": {
     "simple-line-icons": "^2.3.2"
+  },
+  "scripts": {
+  "start": "node index.js",
+  "test": "mocha",
+  "postinstall": "bower install && grunt build"
   }
 }
