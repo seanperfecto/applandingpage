@@ -29,5 +29,8 @@
   },
   "dependencies": {
     "simple-line-icons": "^2.3.2"
+  },
+  "scripts": {
+  "start": "node index.js"
   }
 }
